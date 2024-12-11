@@ -1,3 +1,3 @@
-# orario-marconi
+# timetable visualizer
 
-timetable visualizer for classes, teachers and rooms in my school
+timetable based on classes, teachers and rooms

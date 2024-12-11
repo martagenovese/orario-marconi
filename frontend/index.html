@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orario</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-left-side">
+            <h1>Orario ITI G. Marconi</h1>
+            <h3>By Marta Genovese</h3>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+          </label>
+        <div class="button-container" id="buttons">
+        </div>
+    </div>
+    <div class="container">
+        <div class="dropdowns">
+            <select id="classSelect">
+                <option value="">Seleziona Classe</option>
+
+                <!-- Aggiungi altre opzioni per le classi -->
+            </select>
+            <select id="profSelect">
+                <option value="">Seleziona Professore</option>
+                <!-- Aggiungi altre opzioni per i professori -->
+            </select>
+            <select id="roomSelect">
+                <option value="">Seleziona Aula</option>
+                <!-- Aggiungi altre opzioni per le aule -->
+            </select>
+        </div>
+        <div class="timetable" id="timetable">
+        </div>
+    </div>
+    <script src="timetable.js"></script>
+</body>
+</html>

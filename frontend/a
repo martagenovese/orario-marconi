@@ -1,0 +1,18 @@
+import pyautogui
+import time
+
+# Let the user know the script is starting
+print("Il programma inizierà a simulare la pressione dei tasti ogni 5 secondi. Premi Ctrl+C per interrompere.")
+
+try:
+    while True:
+        # a la pressione di una lettera, ad esempio 'a'
+        pyautogui.typewrite('a')
+        time.sleep(0.5)  # Attendi mezzo secondo per vedere la lettera
+        # Simula la pressione del tasto backspace per cancellare la lettera
+        pyautogui.press('backspace')
+        # Attendi 5 secondi prima di ripetere
+        time.sleep(1)
+except KeyboardInterrupt:
+    print("\nProgramma interrotto dall'utente.")
+#aa
